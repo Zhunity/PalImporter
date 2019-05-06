@@ -1,0 +1,12 @@
+/Library
+
+*.sln
+
+*.csproj
+
+/Temp
+/.vs
+/obj
+/Assets/ConsolePro
+/Assets/ConsolePro.meta
+/Plugins
