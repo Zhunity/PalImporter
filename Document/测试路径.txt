@@ -1,0 +1,3 @@
+D:/文件/编程/unity/PalImporter/Assets/Pal3/pack/cbScene/Z01/z01.pol
+
+D:/文件/编程/unity/PalImporter/Assets/Pal3/pack/ui/GameMainUI/Lineup/wl.POL
