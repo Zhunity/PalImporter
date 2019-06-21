@@ -1,0 +1,5 @@
+﻿  xj3Model.cpp
+D:\文件\编程\unity\PalImporter\Pal3ModelTrans\Pal3ModelTrans\xj3Model.cpp(144): warning C4018: “<”: 有符号/无符号不匹配
+D:\文件\编程\unity\PalImporter\Pal3ModelTrans\Pal3ModelTrans\xj3Model.cpp(151): warning C4018: “<”: 有符号/无符号不匹配
+D:\文件\编程\unity\PalImporter\Pal3ModelTrans\Pal3ModelTrans\xj3Model.cpp(158): warning C4018: “<”: 有符号/无符号不匹配
+  Pal3ModelTrans.vcxproj -> D:\文件\编程\unity\PalImporter\Pal3ModelTrans\Debug\Pal3ModelTrans.exe
