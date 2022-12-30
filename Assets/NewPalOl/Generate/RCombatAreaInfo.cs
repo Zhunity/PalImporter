@@ -1,0 +1,3388 @@
+using SMFrame.Editor.Refleaction;
+using System;
+using System.Reflection;
+
+namespace SMFrame.Editor.Refleaction
+{
+	/// <summary>
+	/// CombatAreaInfo
+	/// </summary>
+    public partial class RCombatAreaInfo : RMember //
+    {
+
+		/// <summary>
+		/// UnityEngine.Transform CameraPosInCombat_Center_1
+		/// </summary>
+		protected RUnityEngine.RTransform r_CameraPosInCombat_Center_1;
+		public virtual RUnityEngine.RTransform RCameraPosInCombat_Center_1
+		{
+			get
+			{
+				if(r_CameraPosInCombat_Center_1 == null)
+				{
+					r_CameraPosInCombat_Center_1 = new(this, "CameraPosInCombat_Center_1");
+					r_CameraPosInCombat_Center_1.SetBelong(this.instance);
+				}
+				return r_CameraPosInCombat_Center_1;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Transform CameraPosInCombat_Side_1
+		/// </summary>
+		protected RUnityEngine.RTransform r_CameraPosInCombat_Side_1;
+		public virtual RUnityEngine.RTransform RCameraPosInCombat_Side_1
+		{
+			get
+			{
+				if(r_CameraPosInCombat_Side_1 == null)
+				{
+					r_CameraPosInCombat_Side_1 = new(this, "CameraPosInCombat_Side_1");
+					r_CameraPosInCombat_Side_1.SetBelong(this.instance);
+				}
+				return r_CameraPosInCombat_Side_1;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Transform SceneAnimationTrans
+		/// </summary>
+		protected RUnityEngine.RTransform r_SceneAnimationTrans;
+		public virtual RUnityEngine.RTransform RSceneAnimationTrans
+		{
+			get
+			{
+				if(r_SceneAnimationTrans == null)
+				{
+					r_SceneAnimationTrans = new(this, "SceneAnimationTrans");
+					r_SceneAnimationTrans.SetBelong(this.instance);
+				}
+				return r_SceneAnimationTrans;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Transform SceneEffectTrans
+		/// </summary>
+		protected RUnityEngine.RTransform r_SceneEffectTrans;
+		public virtual RUnityEngine.RTransform RSceneEffectTrans
+		{
+			get
+			{
+				if(r_SceneEffectTrans == null)
+				{
+					r_SceneEffectTrans = new(this, "SceneEffectTrans");
+					r_SceneEffectTrans.SetBelong(this.instance);
+				}
+				return r_SceneEffectTrans;
+			}
+		}
+
+		/// <summary>
+		/// System.Boolean isMatrixPositionRevert
+		/// </summary>
+		protected RField r_isMatrixPositionRevert;
+		public virtual RField RisMatrixPositionRevert
+		{
+			get
+			{
+				if(r_isMatrixPositionRevert == null)
+				{
+					r_isMatrixPositionRevert = new(this, "isMatrixPositionRevert");
+					r_isMatrixPositionRevert.SetBelong(this.instance);
+				}
+				return r_isMatrixPositionRevert;
+			}
+		}
+
+		/// <summary>
+		/// System.Collections.Generic.Dictionary`2[System.String,UnityEngine.Transform] mAllPositions
+		/// </summary>
+		protected RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RTransform> r_mAllPositions;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RTransform> RmAllPositions
+		{
+			get
+			{
+				if(r_mAllPositions == null)
+				{
+					r_mAllPositions = new(this, "mAllPositions");
+					r_mAllPositions.SetBelong(this.instance);
+				}
+				return r_mAllPositions;
+			}
+		}
+
+		/// <summary>
+		/// System.Collections.Generic.List`1[GameDefineType.ID] idAttacker
+		/// </summary>
+		protected RSystem.RCollections.RGeneric.RList<RGameDefineType.RID> r_idAttacker;
+		public virtual RSystem.RCollections.RGeneric.RList<RGameDefineType.RID> RidAttacker
+		{
+			get
+			{
+				if(r_idAttacker == null)
+				{
+					r_idAttacker = new(this, "idAttacker");
+					r_idAttacker.SetBelong(this.instance);
+				}
+				return r_idAttacker;
+			}
+		}
+
+		/// <summary>
+		/// System.Int32 attackerRune
+		/// </summary>
+		protected RField r_attackerRune;
+		public virtual RField RattackerRune
+		{
+			get
+			{
+				if(r_attackerRune == null)
+				{
+					r_attackerRune = new(this, "attackerRune");
+					r_attackerRune.SetBelong(this.instance);
+				}
+				return r_attackerRune;
+			}
+		}
+
+		/// <summary>
+		/// System.Int32 targetRune
+		/// </summary>
+		protected RField r_targetRune;
+		public virtual RField RtargetRune
+		{
+			get
+			{
+				if(r_targetRune == null)
+				{
+					r_targetRune = new(this, "targetRune");
+					r_targetRune.SetBelong(this.instance);
+				}
+				return r_targetRune;
+			}
+		}
+
+		/// <summary>
+		/// System.Int32 attackerPosX
+		/// </summary>
+		protected RField r_attackerPosX;
+		public virtual RField RattackerPosX
+		{
+			get
+			{
+				if(r_attackerPosX == null)
+				{
+					r_attackerPosX = new(this, "attackerPosX");
+					r_attackerPosX.SetBelong(this.instance);
+				}
+				return r_attackerPosX;
+			}
+		}
+
+		/// <summary>
+		/// System.Int32 attackerPosY
+		/// </summary>
+		protected RField r_attackerPosY;
+		public virtual RField RattackerPosY
+		{
+			get
+			{
+				if(r_attackerPosY == null)
+				{
+					r_attackerPosY = new(this, "attackerPosY");
+					r_attackerPosY.SetBelong(this.instance);
+				}
+				return r_attackerPosY;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.GameObject runeEffect
+		/// </summary>
+		protected RUnityEngine.RGameObject r_runeEffect;
+		public virtual RUnityEngine.RGameObject RruneEffect
+		{
+			get
+			{
+				if(r_runeEffect == null)
+				{
+					r_runeEffect = new(this, "runeEffect");
+					r_runeEffect.SetBelong(this.instance);
+				}
+				return r_runeEffect;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.GameObject enemyRuneEffect
+		/// </summary>
+		protected RUnityEngine.RGameObject r_enemyRuneEffect;
+		public virtual RUnityEngine.RGameObject RenemyRuneEffect
+		{
+			get
+			{
+				if(r_enemyRuneEffect == null)
+				{
+					r_enemyRuneEffect = new(this, "enemyRuneEffect");
+					r_enemyRuneEffect.SetBelong(this.instance);
+				}
+				return r_enemyRuneEffect;
+			}
+		}
+
+		/// <summary>
+		/// System.Collections.Generic.Dictionary`2[System.String,UnityEngine.GameObject] m_GridObjs
+		/// </summary>
+		protected RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RGameObject> r_m_GridObjs;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RGameObject> Rm_GridObjs
+		{
+			get
+			{
+				if(r_m_GridObjs == null)
+				{
+					r_m_GridObjs = new(this, "m_GridObjs");
+					r_m_GridObjs.SetBelong(this.instance);
+				}
+				return r_m_GridObjs;
+			}
+		}
+
+		/// <summary>
+		/// System.Threading.CancellationToken destroyCancellationToken
+		/// </summary>
+		protected RSystem.RThreading.RCancellationToken r_destroyCancellationToken;
+		public virtual RSystem.RThreading.RCancellationToken RdestroyCancellationToken
+		{
+			get
+			{
+				if(r_destroyCancellationToken == null)
+				{
+					r_destroyCancellationToken = new(this, "destroyCancellationToken", -1);
+					r_destroyCancellationToken.SetBelong(this.instance);
+				}
+				return r_destroyCancellationToken;
+			}
+		}
+
+		/// <summary>
+		/// Boolean useGUILayout
+		/// </summary>
+		protected RProperty r_useGUILayout;
+		public virtual RProperty RuseGUILayout
+		{
+			get
+			{
+				if(r_useGUILayout == null)
+				{
+					r_useGUILayout = new(this, "useGUILayout", -1);
+					r_useGUILayout.SetBelong(this.instance);
+				}
+				return r_useGUILayout;
+			}
+		}
+
+		/// <summary>
+		/// Boolean runInEditMode
+		/// </summary>
+		protected RProperty r_runInEditMode;
+		public virtual RProperty RrunInEditMode
+		{
+			get
+			{
+				if(r_runInEditMode == null)
+				{
+					r_runInEditMode = new(this, "runInEditMode", -1);
+					r_runInEditMode.SetBelong(this.instance);
+				}
+				return r_runInEditMode;
+			}
+		}
+
+		/// <summary>
+		/// Boolean allowPrefabModeInPlayMode
+		/// </summary>
+		protected RProperty r_allowPrefabModeInPlayMode;
+		public virtual RProperty RallowPrefabModeInPlayMode
+		{
+			get
+			{
+				if(r_allowPrefabModeInPlayMode == null)
+				{
+					r_allowPrefabModeInPlayMode = new(this, "allowPrefabModeInPlayMode", -1);
+					r_allowPrefabModeInPlayMode.SetBelong(this.instance);
+				}
+				return r_allowPrefabModeInPlayMode;
+			}
+		}
+
+		/// <summary>
+		/// Boolean enabled
+		/// </summary>
+		protected RProperty r_enabled;
+		public virtual RProperty Renabled
+		{
+			get
+			{
+				if(r_enabled == null)
+				{
+					r_enabled = new(this, "enabled", -1);
+					r_enabled.SetBelong(this.instance);
+				}
+				return r_enabled;
+			}
+		}
+
+		/// <summary>
+		/// Boolean isActiveAndEnabled
+		/// </summary>
+		protected RProperty r_isActiveAndEnabled;
+		public virtual RProperty RisActiveAndEnabled
+		{
+			get
+			{
+				if(r_isActiveAndEnabled == null)
+				{
+					r_isActiveAndEnabled = new(this, "isActiveAndEnabled", -1);
+					r_isActiveAndEnabled.SetBelong(this.instance);
+				}
+				return r_isActiveAndEnabled;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Transform transform
+		/// </summary>
+		protected RUnityEngine.RTransform r_transform;
+		public virtual RUnityEngine.RTransform Rtransform
+		{
+			get
+			{
+				if(r_transform == null)
+				{
+					r_transform = new(this, "transform", -1);
+					r_transform.SetBelong(this.instance);
+				}
+				return r_transform;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.GameObject gameObject
+		/// </summary>
+		protected RUnityEngine.RGameObject r_gameObject;
+		public virtual RUnityEngine.RGameObject RgameObject
+		{
+			get
+			{
+				if(r_gameObject == null)
+				{
+					r_gameObject = new(this, "gameObject", -1);
+					r_gameObject.SetBelong(this.instance);
+				}
+				return r_gameObject;
+			}
+		}
+
+		/// <summary>
+		/// System.String tag
+		/// </summary>
+		protected RProperty r_tag;
+		public virtual RProperty Rtag
+		{
+			get
+			{
+				if(r_tag == null)
+				{
+					r_tag = new(this, "tag", -1);
+					r_tag.SetBelong(this.instance);
+				}
+				return r_tag;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component rigidbody
+		/// </summary>
+		protected RUnityEngine.RComponent r_rigidbody;
+		public virtual RUnityEngine.RComponent Rrigidbody
+		{
+			get
+			{
+				if(r_rigidbody == null)
+				{
+					r_rigidbody = new(this, "rigidbody", -1);
+					r_rigidbody.SetBelong(this.instance);
+				}
+				return r_rigidbody;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component rigidbody2D
+		/// </summary>
+		protected RUnityEngine.RComponent r_rigidbody2D;
+		public virtual RUnityEngine.RComponent Rrigidbody2D
+		{
+			get
+			{
+				if(r_rigidbody2D == null)
+				{
+					r_rigidbody2D = new(this, "rigidbody2D", -1);
+					r_rigidbody2D.SetBelong(this.instance);
+				}
+				return r_rigidbody2D;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component camera
+		/// </summary>
+		protected RUnityEngine.RComponent r_camera;
+		public virtual RUnityEngine.RComponent Rcamera
+		{
+			get
+			{
+				if(r_camera == null)
+				{
+					r_camera = new(this, "camera", -1);
+					r_camera.SetBelong(this.instance);
+				}
+				return r_camera;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component light
+		/// </summary>
+		protected RUnityEngine.RComponent r_light;
+		public virtual RUnityEngine.RComponent Rlight
+		{
+			get
+			{
+				if(r_light == null)
+				{
+					r_light = new(this, "light", -1);
+					r_light.SetBelong(this.instance);
+				}
+				return r_light;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component animation
+		/// </summary>
+		protected RUnityEngine.RComponent r_animation;
+		public virtual RUnityEngine.RComponent Ranimation
+		{
+			get
+			{
+				if(r_animation == null)
+				{
+					r_animation = new(this, "animation", -1);
+					r_animation.SetBelong(this.instance);
+				}
+				return r_animation;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component constantForce
+		/// </summary>
+		protected RUnityEngine.RComponent r_constantForce;
+		public virtual RUnityEngine.RComponent RconstantForce
+		{
+			get
+			{
+				if(r_constantForce == null)
+				{
+					r_constantForce = new(this, "constantForce", -1);
+					r_constantForce.SetBelong(this.instance);
+				}
+				return r_constantForce;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component renderer
+		/// </summary>
+		protected RUnityEngine.RComponent r_renderer;
+		public virtual RUnityEngine.RComponent Rrenderer
+		{
+			get
+			{
+				if(r_renderer == null)
+				{
+					r_renderer = new(this, "renderer", -1);
+					r_renderer.SetBelong(this.instance);
+				}
+				return r_renderer;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component audio
+		/// </summary>
+		protected RUnityEngine.RComponent r_audio;
+		public virtual RUnityEngine.RComponent Raudio
+		{
+			get
+			{
+				if(r_audio == null)
+				{
+					r_audio = new(this, "audio", -1);
+					r_audio.SetBelong(this.instance);
+				}
+				return r_audio;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component networkView
+		/// </summary>
+		protected RUnityEngine.RComponent r_networkView;
+		public virtual RUnityEngine.RComponent RnetworkView
+		{
+			get
+			{
+				if(r_networkView == null)
+				{
+					r_networkView = new(this, "networkView", -1);
+					r_networkView.SetBelong(this.instance);
+				}
+				return r_networkView;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component collider
+		/// </summary>
+		protected RUnityEngine.RComponent r_collider;
+		public virtual RUnityEngine.RComponent Rcollider
+		{
+			get
+			{
+				if(r_collider == null)
+				{
+					r_collider = new(this, "collider", -1);
+					r_collider.SetBelong(this.instance);
+				}
+				return r_collider;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component collider2D
+		/// </summary>
+		protected RUnityEngine.RComponent r_collider2D;
+		public virtual RUnityEngine.RComponent Rcollider2D
+		{
+			get
+			{
+				if(r_collider2D == null)
+				{
+					r_collider2D = new(this, "collider2D", -1);
+					r_collider2D.SetBelong(this.instance);
+				}
+				return r_collider2D;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component hingeJoint
+		/// </summary>
+		protected RUnityEngine.RComponent r_hingeJoint;
+		public virtual RUnityEngine.RComponent RhingeJoint
+		{
+			get
+			{
+				if(r_hingeJoint == null)
+				{
+					r_hingeJoint = new(this, "hingeJoint", -1);
+					r_hingeJoint.SetBelong(this.instance);
+				}
+				return r_hingeJoint;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component particleSystem
+		/// </summary>
+		protected RUnityEngine.RComponent r_particleSystem;
+		public virtual RUnityEngine.RComponent RparticleSystem
+		{
+			get
+			{
+				if(r_particleSystem == null)
+				{
+					r_particleSystem = new(this, "particleSystem", -1);
+					r_particleSystem.SetBelong(this.instance);
+				}
+				return r_particleSystem;
+			}
+		}
+
+		/// <summary>
+		/// System.String name
+		/// </summary>
+		protected RProperty r_name;
+		public virtual RProperty Rname
+		{
+			get
+			{
+				if(r_name == null)
+				{
+					r_name = new(this, "name", -1);
+					r_name.SetBelong(this.instance);
+				}
+				return r_name;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.HideFlags hideFlags
+		/// </summary>
+		protected RProperty r_hideFlags;
+		public virtual RProperty RhideFlags
+		{
+			get
+			{
+				if(r_hideFlags == null)
+				{
+					r_hideFlags = new(this, "hideFlags", -1);
+					r_hideFlags.SetBelong(this.instance);
+				}
+				return r_hideFlags;
+			}
+		}
+
+		/// <summary>
+		/// Void Awake()
+		/// </summary>
+		protected RMethod r_RAwake;
+		public virtual RMethod RAwake
+		{
+			get
+			{
+				if(r_RAwake == null)
+				{
+					r_RAwake = new(this, "Awake", 0);
+					r_RAwake.SetBelong(this.instance);
+				}
+				return r_RAwake;
+			}
+		}
+
+		/// <summary>
+		/// Void Start()
+		/// </summary>
+		protected RMethod r_RStart;
+		public virtual RMethod RStart
+		{
+			get
+			{
+				if(r_RStart == null)
+				{
+					r_RStart = new(this, "Start", 0);
+					r_RStart.SetBelong(this.instance);
+				}
+				return r_RStart;
+			}
+		}
+
+		/// <summary>
+		/// System.String MatrixPathRevert(System.String)
+		/// </summary>
+		protected RMethod r_RMatrixPathRevert_String;
+		public virtual RMethod RMatrixPathRevert_String
+		{
+			get
+			{
+				if(r_RMatrixPathRevert_String == null)
+				{
+					r_RMatrixPathRevert_String = new(this, "MatrixPathRevert", 0, typeof(System.String));
+					r_RMatrixPathRevert_String.SetBelong(this.instance);
+				}
+				return r_RMatrixPathRevert_String;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Transform GetPosTransform(System.String)
+		/// </summary>
+		protected RMethod r_RGetPosTransform_String;
+		public virtual RMethod RGetPosTransform_String
+		{
+			get
+			{
+				if(r_RGetPosTransform_String == null)
+				{
+					r_RGetPosTransform_String = new(this, "GetPosTransform", 0, typeof(System.String));
+					r_RGetPosTransform_String.SetBelong(this.instance);
+				}
+				return r_RGetPosTransform_String;
+			}
+		}
+
+		/// <summary>
+		/// Void GetCameraPosInCombatCenter(Boolean)
+		/// </summary>
+		protected RMethod r_RGetCameraPosInCombatCenter_Boolean;
+		public virtual RMethod RGetCameraPosInCombatCenter_Boolean
+		{
+			get
+			{
+				if(r_RGetCameraPosInCombatCenter_Boolean == null)
+				{
+					r_RGetCameraPosInCombatCenter_Boolean = new(this, "GetCameraPosInCombatCenter", 0, typeof(System.Boolean));
+					r_RGetCameraPosInCombatCenter_Boolean.SetBelong(this.instance);
+				}
+				return r_RGetCameraPosInCombatCenter_Boolean;
+			}
+		}
+
+		/// <summary>
+		/// Void GetCameraPosInCombatSide(Boolean)
+		/// </summary>
+		protected RMethod r_RGetCameraPosInCombatSide_Boolean;
+		public virtual RMethod RGetCameraPosInCombatSide_Boolean
+		{
+			get
+			{
+				if(r_RGetCameraPosInCombatSide_Boolean == null)
+				{
+					r_RGetCameraPosInCombatSide_Boolean = new(this, "GetCameraPosInCombatSide", 0, typeof(System.Boolean));
+					r_RGetCameraPosInCombatSide_Boolean.SetBelong(this.instance);
+				}
+				return r_RGetCameraPosInCombatSide_Boolean;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Vector3 GetCenter()
+		/// </summary>
+		protected RMethod r_RGetCenter;
+		public virtual RMethod RGetCenter
+		{
+			get
+			{
+				if(r_RGetCenter == null)
+				{
+					r_RGetCenter = new(this, "GetCenter", 0);
+					r_RGetCenter.SetBelong(this.instance);
+				}
+				return r_RGetCenter;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Vector3 GetPos(Int32, Int32)
+		/// </summary>
+		protected RMethod r_RGetPos_Int32_Int32;
+		public virtual RMethod RGetPos_Int32_Int32
+		{
+			get
+			{
+				if(r_RGetPos_Int32_Int32 == null)
+				{
+					r_RGetPos_Int32_Int32 = new(this, "GetPos", 0, typeof(System.Int32), typeof(System.Int32));
+					r_RGetPos_Int32_Int32.SetBelong(this.instance);
+				}
+				return r_RGetPos_Int32_Int32;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Vector3 GetPosWithOutRevert(Int32, Int32)
+		/// </summary>
+		protected RMethod r_RGetPosWithOutRevert_Int32_Int32;
+		public virtual RMethod RGetPosWithOutRevert_Int32_Int32
+		{
+			get
+			{
+				if(r_RGetPosWithOutRevert_Int32_Int32 == null)
+				{
+					r_RGetPosWithOutRevert_Int32_Int32 = new(this, "GetPosWithOutRevert", 0, typeof(System.Int32), typeof(System.Int32));
+					r_RGetPosWithOutRevert_Int32_Int32.SetBelong(this.instance);
+				}
+				return r_RGetPosWithOutRevert_Int32_Int32;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Transform GetPosTransformWithOutRevert(System.String)
+		/// </summary>
+		protected RMethod r_RGetPosTransformWithOutRevert_String;
+		public virtual RMethod RGetPosTransformWithOutRevert_String
+		{
+			get
+			{
+				if(r_RGetPosTransformWithOutRevert_String == null)
+				{
+					r_RGetPosTransformWithOutRevert_String = new(this, "GetPosTransformWithOutRevert", 0, typeof(System.String));
+					r_RGetPosTransformWithOutRevert_String.SetBelong(this.instance);
+				}
+				return r_RGetPosTransformWithOutRevert_String;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Quaternion GetRotation(Int32, Int32)
+		/// </summary>
+		protected RMethod r_RGetRotation_Int32_Int32;
+		public virtual RMethod RGetRotation_Int32_Int32
+		{
+			get
+			{
+				if(r_RGetRotation_Int32_Int32 == null)
+				{
+					r_RGetRotation_Int32_Int32 = new(this, "GetRotation", 0, typeof(System.Int32), typeof(System.Int32));
+					r_RGetRotation_Int32_Int32.SetBelong(this.instance);
+				}
+				return r_RGetRotation_Int32_Int32;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Transform GetCombatAreaSideCenter(Int32, Int32)
+		/// </summary>
+		protected RMethod r_RGetCombatAreaSideCenter_Int32_Int32;
+		public virtual RMethod RGetCombatAreaSideCenter_Int32_Int32
+		{
+			get
+			{
+				if(r_RGetCombatAreaSideCenter_Int32_Int32 == null)
+				{
+					r_RGetCombatAreaSideCenter_Int32_Int32 = new(this, "GetCombatAreaSideCenter", 0, typeof(System.Int32), typeof(System.Int32));
+					r_RGetCombatAreaSideCenter_Int32_Int32.SetBelong(this.instance);
+				}
+				return r_RGetCombatAreaSideCenter_Int32_Int32;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Vector3 GetCombatAreaSideCenterPos(Int32, Int32)
+		/// </summary>
+		protected RMethod r_RGetCombatAreaSideCenterPos_Int32_Int32;
+		public virtual RMethod RGetCombatAreaSideCenterPos_Int32_Int32
+		{
+			get
+			{
+				if(r_RGetCombatAreaSideCenterPos_Int32_Int32 == null)
+				{
+					r_RGetCombatAreaSideCenterPos_Int32_Int32 = new(this, "GetCombatAreaSideCenterPos", 0, typeof(System.Int32), typeof(System.Int32));
+					r_RGetCombatAreaSideCenterPos_Int32_Int32.SetBelong(this.instance);
+				}
+				return r_RGetCombatAreaSideCenterPos_Int32_Int32;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Transform GetContCombatAreaSideCenter(Int32, Int32)
+		/// </summary>
+		protected RMethod r_RGetContCombatAreaSideCenter_Int32_Int32;
+		public virtual RMethod RGetContCombatAreaSideCenter_Int32_Int32
+		{
+			get
+			{
+				if(r_RGetContCombatAreaSideCenter_Int32_Int32 == null)
+				{
+					r_RGetContCombatAreaSideCenter_Int32_Int32 = new(this, "GetContCombatAreaSideCenter", 0, typeof(System.Int32), typeof(System.Int32));
+					r_RGetContCombatAreaSideCenter_Int32_Int32.SetBelong(this.instance);
+				}
+				return r_RGetContCombatAreaSideCenter_Int32_Int32;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Vector3 GetContCombatAreaSideCenterPos(Int32, Int32)
+		/// </summary>
+		protected RMethod r_RGetContCombatAreaSideCenterPos_Int32_Int32;
+		public virtual RMethod RGetContCombatAreaSideCenterPos_Int32_Int32
+		{
+			get
+			{
+				if(r_RGetContCombatAreaSideCenterPos_Int32_Int32 == null)
+				{
+					r_RGetContCombatAreaSideCenterPos_Int32_Int32 = new(this, "GetContCombatAreaSideCenterPos", 0, typeof(System.Int32), typeof(System.Int32));
+					r_RGetContCombatAreaSideCenterPos_Int32_Int32.SetBelong(this.instance);
+				}
+				return r_RGetContCombatAreaSideCenterPos_Int32_Int32;
+			}
+		}
+
+		/// <summary>
+		/// Void PlaySceneAnimation(System.String)
+		/// </summary>
+		protected RMethod r_RPlaySceneAnimation_String;
+		public virtual RMethod RPlaySceneAnimation_String
+		{
+			get
+			{
+				if(r_RPlaySceneAnimation_String == null)
+				{
+					r_RPlaySceneAnimation_String = new(this, "PlaySceneAnimation", 0, typeof(System.String));
+					r_RPlaySceneAnimation_String.SetBelong(this.instance);
+				}
+				return r_RPlaySceneAnimation_String;
+			}
+		}
+
+		/// <summary>
+		/// Void PlaySceneEffect(System.String, UnityEngine.GameObject)
+		/// </summary>
+		protected RMethod r_RPlaySceneEffect_String_GameObject;
+		public virtual RMethod RPlaySceneEffect_String_GameObject
+		{
+			get
+			{
+				if(r_RPlaySceneEffect_String_GameObject == null)
+				{
+					r_RPlaySceneEffect_String_GameObject = new(this, "PlaySceneEffect", 0, typeof(System.String), typeof(UnityEngine.GameObject));
+					r_RPlaySceneEffect_String_GameObject.SetBelong(this.instance);
+				}
+				return r_RPlaySceneEffect_String_GameObject;
+			}
+		}
+
+		/// <summary>
+		/// Void PlayeCameraMove(UnityEngine.GameObject, UnityEngine.Transform, Int32)
+		/// </summary>
+		protected RMethod r_RPlayeCameraMove_GameObject_Transform_Int32;
+		public virtual RMethod RPlayeCameraMove_GameObject_Transform_Int32
+		{
+			get
+			{
+				if(r_RPlayeCameraMove_GameObject_Transform_Int32 == null)
+				{
+					r_RPlayeCameraMove_GameObject_Transform_Int32 = new(this, "PlayeCameraMove", 0, typeof(UnityEngine.GameObject), typeof(UnityEngine.Transform), typeof(System.Int32));
+					r_RPlayeCameraMove_GameObject_Transform_Int32.SetBelong(this.instance);
+				}
+				return r_RPlayeCameraMove_GameObject_Transform_Int32;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Transform GetChildInDeep(UnityEngine.Transform, System.String)
+		/// </summary>
+		protected static RMethod r_RGetChildInDeep_Transform_String;
+		public static RMethod RGetChildInDeep_Transform_String
+		{
+			get
+			{
+				if(r_RGetChildInDeep_Transform_String == null)
+				{
+					r_RGetChildInDeep_Transform_String = new( ReleactionUtils.GetType("CombatAreaInfo"), "GetChildInDeep", 0, typeof(UnityEngine.Transform), typeof(System.String));
+					r_RGetChildInDeep_Transform_String.SetBelong(null);
+				}
+				return r_RGetChildInDeep_Transform_String;
+			}
+		}
+
+		/// <summary>
+		/// Void RestPositionOnAnimated(System.Object, System.EventArgs)
+		/// </summary>
+		protected RMethod r_RRestPositionOnAnimated_Object_EventArgs;
+		public virtual RMethod RRestPositionOnAnimated_Object_EventArgs
+		{
+			get
+			{
+				if(r_RRestPositionOnAnimated_Object_EventArgs == null)
+				{
+					r_RRestPositionOnAnimated_Object_EventArgs = new(this, "RestPositionOnAnimated", 0, typeof(System.Object), typeof(System.EventArgs));
+					r_RRestPositionOnAnimated_Object_EventArgs.SetBelong(this.instance);
+				}
+				return r_RRestPositionOnAnimated_Object_EventArgs;
+			}
+		}
+
+		/// <summary>
+		/// Void EnterCombat()
+		/// </summary>
+		protected RMethod r_REnterCombat;
+		public virtual RMethod REnterCombat
+		{
+			get
+			{
+				if(r_REnterCombat == null)
+				{
+					r_REnterCombat = new(this, "EnterCombat", 0);
+					r_REnterCombat.SetBelong(this.instance);
+				}
+				return r_REnterCombat;
+			}
+		}
+
+		/// <summary>
+		/// Void LeaveCombat()
+		/// </summary>
+		protected RMethod r_RLeaveCombat;
+		public virtual RMethod RLeaveCombat
+		{
+			get
+			{
+				if(r_RLeaveCombat == null)
+				{
+					r_RLeaveCombat = new(this, "LeaveCombat", 0);
+					r_RLeaveCombat.SetBelong(this.instance);
+				}
+				return r_RLeaveCombat;
+			}
+		}
+
+		/// <summary>
+		/// Void InitMatrixEffect()
+		/// </summary>
+		protected RMethod r_RInitMatrixEffect;
+		public virtual RMethod RInitMatrixEffect
+		{
+			get
+			{
+				if(r_RInitMatrixEffect == null)
+				{
+					r_RInitMatrixEffect = new(this, "InitMatrixEffect", 0);
+					r_RInitMatrixEffect.SetBelong(this.instance);
+				}
+				return r_RInitMatrixEffect;
+			}
+		}
+
+		/// <summary>
+		/// System.Collections.IEnumerator InitMatrixEffectDelay(GameDefineType.ID[])
+		/// </summary>
+		protected RMethod r_RInitMatrixEffectDelay_IDArray;
+		public virtual RMethod RInitMatrixEffectDelay_IDArray
+		{
+			get
+			{
+				if(r_RInitMatrixEffectDelay_IDArray == null)
+				{
+					r_RInitMatrixEffectDelay_IDArray = new(this, "InitMatrixEffectDelay", 0, typeof(GameDefineType.ID).MakeArrayType());
+					r_RInitMatrixEffectDelay_IDArray.SetBelong(this.instance);
+				}
+				return r_RInitMatrixEffectDelay_IDArray;
+			}
+		}
+
+		/// <summary>
+		/// Void InitRuneWordsEffect(System.Collections.Generic.List`1[GameDefineType.ID], Int32, Int32, Int32, Int32)
+		/// </summary>
+		protected RMethod r_RInitRuneWordsEffect_List_d_ID_p__Int32_Int32_Int32_Int32;
+		public virtual RMethod RInitRuneWordsEffect_List_d_ID_p__Int32_Int32_Int32_Int32
+		{
+			get
+			{
+				if(r_RInitRuneWordsEffect_List_d_ID_p__Int32_Int32_Int32_Int32 == null)
+				{
+					r_RInitRuneWordsEffect_List_d_ID_p__Int32_Int32_Int32_Int32 = new(this, "InitRuneWordsEffect", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(GameDefineType.ID)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_RInitRuneWordsEffect_List_d_ID_p__Int32_Int32_Int32_Int32.SetBelong(this.instance);
+				}
+				return r_RInitRuneWordsEffect_List_d_ID_p__Int32_Int32_Int32_Int32;
+			}
+		}
+
+		/// <summary>
+		/// Void DownLoadRuneWordsEffect(System.Collections.Generic.List`1[GameDefineType.ID], Int32, Boolean)
+		/// </summary>
+		protected RMethod r_RDownLoadRuneWordsEffect_List_d_ID_p__Int32_Boolean;
+		public virtual RMethod RDownLoadRuneWordsEffect_List_d_ID_p__Int32_Boolean
+		{
+			get
+			{
+				if(r_RDownLoadRuneWordsEffect_List_d_ID_p__Int32_Boolean == null)
+				{
+					r_RDownLoadRuneWordsEffect_List_d_ID_p__Int32_Boolean = new(this, "DownLoadRuneWordsEffect", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(GameDefineType.ID)), typeof(System.Int32), typeof(System.Boolean));
+					r_RDownLoadRuneWordsEffect_List_d_ID_p__Int32_Boolean.SetBelong(this.instance);
+				}
+				return r_RDownLoadRuneWordsEffect_List_d_ID_p__Int32_Boolean;
+			}
+		}
+
+		/// <summary>
+		/// Void OnLoadRuneWordsEffect(System.Object, ABLoadedArgs)
+		/// </summary>
+		protected RMethod r_ROnLoadRuneWordsEffect_Object_ABLoadedArgs;
+		public virtual RMethod ROnLoadRuneWordsEffect_Object_ABLoadedArgs
+		{
+			get
+			{
+				if(r_ROnLoadRuneWordsEffect_Object_ABLoadedArgs == null)
+				{
+					r_ROnLoadRuneWordsEffect_Object_ABLoadedArgs = new(this, "OnLoadRuneWordsEffect", 0, typeof(System.Object),  ReleactionUtils.GetType("AssetBundleDownloader+ABLoadedArgs"));
+					r_ROnLoadRuneWordsEffect_Object_ABLoadedArgs.SetBelong(this.instance);
+				}
+				return r_ROnLoadRuneWordsEffect_Object_ABLoadedArgs;
+			}
+		}
+
+		/// <summary>
+		/// Void ClearGridObjects()
+		/// </summary>
+		protected RMethod r_RClearGridObjects;
+		public virtual RMethod RClearGridObjects
+		{
+			get
+			{
+				if(r_RClearGridObjects == null)
+				{
+					r_RClearGridObjects = new(this, "ClearGridObjects", 0);
+					r_RClearGridObjects.SetBelong(this.instance);
+				}
+				return r_RClearGridObjects;
+			}
+		}
+
+		/// <summary>
+		/// Void ShowAllGrid()
+		/// </summary>
+		protected RMethod r_RShowAllGrid;
+		public virtual RMethod RShowAllGrid
+		{
+			get
+			{
+				if(r_RShowAllGrid == null)
+				{
+					r_RShowAllGrid = new(this, "ShowAllGrid", 0);
+					r_RShowAllGrid.SetBelong(this.instance);
+				}
+				return r_RShowAllGrid;
+			}
+		}
+
+		/// <summary>
+		/// Void SetGridColor(Int32, Int32, UnityEngine.Color)
+		/// </summary>
+		protected RMethod r_RSetGridColor_Int32_Int32_Color;
+		public virtual RMethod RSetGridColor_Int32_Int32_Color
+		{
+			get
+			{
+				if(r_RSetGridColor_Int32_Int32_Color == null)
+				{
+					r_RSetGridColor_Int32_Int32_Color = new(this, "SetGridColor", 0, typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Color));
+					r_RSetGridColor_Int32_Int32_Color.SetBelong(this.instance);
+				}
+				return r_RSetGridColor_Int32_Int32_Color;
+			}
+		}
+
+		/// <summary>
+		/// Void RestSingleton()
+		/// </summary>
+		protected RMethod r_RRestSingleton;
+		public virtual RMethod RRestSingleton
+		{
+			get
+			{
+				if(r_RRestSingleton == null)
+				{
+					r_RRestSingleton = new(this, "RestSingleton", 0);
+					r_RRestSingleton.SetBelong(this.instance);
+				}
+				return r_RRestSingleton;
+			}
+		}
+
+		/// <summary>
+		/// Boolean IsInvoking()
+		/// </summary>
+		protected RMethod r_RIsInvoking;
+		public virtual RMethod RIsInvoking
+		{
+			get
+			{
+				if(r_RIsInvoking == null)
+				{
+					r_RIsInvoking = new(this, "IsInvoking", 0);
+					r_RIsInvoking.SetBelong(this.instance);
+				}
+				return r_RIsInvoking;
+			}
+		}
+
+		/// <summary>
+		/// Void CancelInvoke()
+		/// </summary>
+		protected RMethod r_RCancelInvoke;
+		public virtual RMethod RCancelInvoke
+		{
+			get
+			{
+				if(r_RCancelInvoke == null)
+				{
+					r_RCancelInvoke = new(this, "CancelInvoke", 0);
+					r_RCancelInvoke.SetBelong(this.instance);
+				}
+				return r_RCancelInvoke;
+			}
+		}
+
+		/// <summary>
+		/// Void Invoke(System.String, Single)
+		/// </summary>
+		protected RMethod r_RInvoke_String_Single;
+		public virtual RMethod RInvoke_String_Single
+		{
+			get
+			{
+				if(r_RInvoke_String_Single == null)
+				{
+					r_RInvoke_String_Single = new(this, "Invoke", 0, typeof(System.String), typeof(System.Single));
+					r_RInvoke_String_Single.SetBelong(this.instance);
+				}
+				return r_RInvoke_String_Single;
+			}
+		}
+
+		/// <summary>
+		/// Void InvokeRepeating(System.String, Single, Single)
+		/// </summary>
+		protected RMethod r_RInvokeRepeating_String_Single_Single;
+		public virtual RMethod RInvokeRepeating_String_Single_Single
+		{
+			get
+			{
+				if(r_RInvokeRepeating_String_Single_Single == null)
+				{
+					r_RInvokeRepeating_String_Single_Single = new(this, "InvokeRepeating", 0, typeof(System.String), typeof(System.Single), typeof(System.Single));
+					r_RInvokeRepeating_String_Single_Single.SetBelong(this.instance);
+				}
+				return r_RInvokeRepeating_String_Single_Single;
+			}
+		}
+
+		/// <summary>
+		/// Void CancelInvoke(System.String)
+		/// </summary>
+		protected RMethod r_RCancelInvoke_String;
+		public virtual RMethod RCancelInvoke_String
+		{
+			get
+			{
+				if(r_RCancelInvoke_String == null)
+				{
+					r_RCancelInvoke_String = new(this, "CancelInvoke", 0, typeof(System.String));
+					r_RCancelInvoke_String.SetBelong(this.instance);
+				}
+				return r_RCancelInvoke_String;
+			}
+		}
+
+		/// <summary>
+		/// Boolean IsInvoking(System.String)
+		/// </summary>
+		protected RMethod r_RIsInvoking_String;
+		public virtual RMethod RIsInvoking_String
+		{
+			get
+			{
+				if(r_RIsInvoking_String == null)
+				{
+					r_RIsInvoking_String = new(this, "IsInvoking", 0, typeof(System.String));
+					r_RIsInvoking_String.SetBelong(this.instance);
+				}
+				return r_RIsInvoking_String;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Coroutine StartCoroutine(System.String)
+		/// </summary>
+		protected RMethod r_RStartCoroutine_String;
+		public virtual RMethod RStartCoroutine_String
+		{
+			get
+			{
+				if(r_RStartCoroutine_String == null)
+				{
+					r_RStartCoroutine_String = new(this, "StartCoroutine", 0, typeof(System.String));
+					r_RStartCoroutine_String.SetBelong(this.instance);
+				}
+				return r_RStartCoroutine_String;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Coroutine StartCoroutine(System.String, System.Object)
+		/// </summary>
+		protected RMethod r_RStartCoroutine_String_Object;
+		public virtual RMethod RStartCoroutine_String_Object
+		{
+			get
+			{
+				if(r_RStartCoroutine_String_Object == null)
+				{
+					r_RStartCoroutine_String_Object = new(this, "StartCoroutine", 0, typeof(System.String), typeof(System.Object));
+					r_RStartCoroutine_String_Object.SetBelong(this.instance);
+				}
+				return r_RStartCoroutine_String_Object;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Coroutine StartCoroutine(System.Collections.IEnumerator)
+		/// </summary>
+		protected RMethod r_RStartCoroutine_IEnumerator;
+		public virtual RMethod RStartCoroutine_IEnumerator
+		{
+			get
+			{
+				if(r_RStartCoroutine_IEnumerator == null)
+				{
+					r_RStartCoroutine_IEnumerator = new(this, "StartCoroutine", 0, typeof(System.Collections.IEnumerator));
+					r_RStartCoroutine_IEnumerator.SetBelong(this.instance);
+				}
+				return r_RStartCoroutine_IEnumerator;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Coroutine StartCoroutine_Auto(System.Collections.IEnumerator)
+		/// </summary>
+		protected RMethod r_RStartCoroutine_Auto_IEnumerator;
+		public virtual RMethod RStartCoroutine_Auto_IEnumerator
+		{
+			get
+			{
+				if(r_RStartCoroutine_Auto_IEnumerator == null)
+				{
+					r_RStartCoroutine_Auto_IEnumerator = new(this, "StartCoroutine_Auto", 0, typeof(System.Collections.IEnumerator));
+					r_RStartCoroutine_Auto_IEnumerator.SetBelong(this.instance);
+				}
+				return r_RStartCoroutine_Auto_IEnumerator;
+			}
+		}
+
+		/// <summary>
+		/// Void StopCoroutine(System.Collections.IEnumerator)
+		/// </summary>
+		protected RMethod r_RStopCoroutine_IEnumerator;
+		public virtual RMethod RStopCoroutine_IEnumerator
+		{
+			get
+			{
+				if(r_RStopCoroutine_IEnumerator == null)
+				{
+					r_RStopCoroutine_IEnumerator = new(this, "StopCoroutine", 0, typeof(System.Collections.IEnumerator));
+					r_RStopCoroutine_IEnumerator.SetBelong(this.instance);
+				}
+				return r_RStopCoroutine_IEnumerator;
+			}
+		}
+
+		/// <summary>
+		/// Void StopCoroutine(UnityEngine.Coroutine)
+		/// </summary>
+		protected RMethod r_RStopCoroutine_Coroutine;
+		public virtual RMethod RStopCoroutine_Coroutine
+		{
+			get
+			{
+				if(r_RStopCoroutine_Coroutine == null)
+				{
+					r_RStopCoroutine_Coroutine = new(this, "StopCoroutine", 0, typeof(UnityEngine.Coroutine));
+					r_RStopCoroutine_Coroutine.SetBelong(this.instance);
+				}
+				return r_RStopCoroutine_Coroutine;
+			}
+		}
+
+		/// <summary>
+		/// Void StopCoroutine(System.String)
+		/// </summary>
+		protected RMethod r_RStopCoroutine_String;
+		public virtual RMethod RStopCoroutine_String
+		{
+			get
+			{
+				if(r_RStopCoroutine_String == null)
+				{
+					r_RStopCoroutine_String = new(this, "StopCoroutine", 0, typeof(System.String));
+					r_RStopCoroutine_String.SetBelong(this.instance);
+				}
+				return r_RStopCoroutine_String;
+			}
+		}
+
+		/// <summary>
+		/// Void StopAllCoroutines()
+		/// </summary>
+		protected RMethod r_RStopAllCoroutines;
+		public virtual RMethod RStopAllCoroutines
+		{
+			get
+			{
+				if(r_RStopAllCoroutines == null)
+				{
+					r_RStopAllCoroutines = new(this, "StopAllCoroutines", 0);
+					r_RStopAllCoroutines.SetBelong(this.instance);
+				}
+				return r_RStopAllCoroutines;
+			}
+		}
+
+		/// <summary>
+		/// System.String GetScriptClassName()
+		/// </summary>
+		protected RMethod r_RGetScriptClassName;
+		public virtual RMethod RGetScriptClassName
+		{
+			get
+			{
+				if(r_RGetScriptClassName == null)
+				{
+					r_RGetScriptClassName = new(this, "GetScriptClassName", 0);
+					r_RGetScriptClassName.SetBelong(this.instance);
+				}
+				return r_RGetScriptClassName;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component GetComponent(System.Type)
+		/// </summary>
+		protected RMethod r_RGetComponent_Type;
+		public virtual RMethod RGetComponent_Type
+		{
+			get
+			{
+				if(r_RGetComponent_Type == null)
+				{
+					r_RGetComponent_Type = new(this, "GetComponent", 0, typeof(System.Type));
+					r_RGetComponent_Type.SetBelong(this.instance);
+				}
+				return r_RGetComponent_Type;
+			}
+		}
+
+		/// <summary>
+		/// Void GetComponentFastPath(System.Type, IntPtr)
+		/// </summary>
+		protected RMethod r_RGetComponentFastPath_Type_IntPtr;
+		public virtual RMethod RGetComponentFastPath_Type_IntPtr
+		{
+			get
+			{
+				if(r_RGetComponentFastPath_Type_IntPtr == null)
+				{
+					r_RGetComponentFastPath_Type_IntPtr = new(this, "GetComponentFastPath", 0, typeof(System.Type), typeof(System.IntPtr));
+					r_RGetComponentFastPath_Type_IntPtr.SetBelong(this.instance);
+				}
+				return r_RGetComponentFastPath_Type_IntPtr;
+			}
+		}
+
+		/// <summary>
+		/// T GetComponent[T]()
+		/// </summary>
+		protected RMethod r_RGetComponent_GT;
+		public virtual RMethod RGetComponent_GT
+		{
+			get
+			{
+				if(r_RGetComponent_GT == null)
+				{
+					r_RGetComponent_GT = new(this, "GetComponent", 1);
+					r_RGetComponent_GT.SetBelong(this.instance);
+				}
+				return r_RGetComponent_GT;
+			}
+		}
+
+		/// <summary>
+		/// Boolean TryGetComponent(System.Type, UnityEngine.Component ByRef)
+		/// </summary>
+		protected RMethod r_RTryGetComponent_Type_Out_Component;
+		public virtual RMethod RTryGetComponent_Type_Out_Component
+		{
+			get
+			{
+				if(r_RTryGetComponent_Type_Out_Component == null)
+				{
+					r_RTryGetComponent_Type_Out_Component = new(this, "TryGetComponent", 0, typeof(System.Type), typeof(UnityEngine.Component).MakeByRefType());
+					r_RTryGetComponent_Type_Out_Component.SetBelong(this.instance);
+				}
+				return r_RTryGetComponent_Type_Out_Component;
+			}
+		}
+
+		/// <summary>
+		/// Boolean TryGetComponent[T](T ByRef)
+		/// </summary>
+		protected RMethod r_RTryGetComponent_GT_Out_T;
+		public virtual RMethod RTryGetComponent_GT_Out_T
+		{
+			get
+			{
+				if(r_RTryGetComponent_GT_Out_T == null)
+				{
+					r_RTryGetComponent_GT_Out_T = new(this, "TryGetComponent", 1, Type.MakeGenericMethodParameter(0).MakeByRefType());
+					r_RTryGetComponent_GT_Out_T.SetBelong(this.instance);
+				}
+				return r_RTryGetComponent_GT_Out_T;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component GetComponent(System.String)
+		/// </summary>
+		protected RMethod r_RGetComponent_String;
+		public virtual RMethod RGetComponent_String
+		{
+			get
+			{
+				if(r_RGetComponent_String == null)
+				{
+					r_RGetComponent_String = new(this, "GetComponent", 0, typeof(System.String));
+					r_RGetComponent_String.SetBelong(this.instance);
+				}
+				return r_RGetComponent_String;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component GetComponentInChildren(System.Type, Boolean)
+		/// </summary>
+		protected RMethod r_RGetComponentInChildren_Type_Boolean;
+		public virtual RMethod RGetComponentInChildren_Type_Boolean
+		{
+			get
+			{
+				if(r_RGetComponentInChildren_Type_Boolean == null)
+				{
+					r_RGetComponentInChildren_Type_Boolean = new(this, "GetComponentInChildren", 0, typeof(System.Type), typeof(System.Boolean));
+					r_RGetComponentInChildren_Type_Boolean.SetBelong(this.instance);
+				}
+				return r_RGetComponentInChildren_Type_Boolean;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component GetComponentInChildren(System.Type)
+		/// </summary>
+		protected RMethod r_RGetComponentInChildren_Type;
+		public virtual RMethod RGetComponentInChildren_Type
+		{
+			get
+			{
+				if(r_RGetComponentInChildren_Type == null)
+				{
+					r_RGetComponentInChildren_Type = new(this, "GetComponentInChildren", 0, typeof(System.Type));
+					r_RGetComponentInChildren_Type.SetBelong(this.instance);
+				}
+				return r_RGetComponentInChildren_Type;
+			}
+		}
+
+		/// <summary>
+		/// T GetComponentInChildren[T](Boolean)
+		/// </summary>
+		protected RMethod r_RGetComponentInChildren_GT_Boolean;
+		public virtual RMethod RGetComponentInChildren_GT_Boolean
+		{
+			get
+			{
+				if(r_RGetComponentInChildren_GT_Boolean == null)
+				{
+					r_RGetComponentInChildren_GT_Boolean = new(this, "GetComponentInChildren", 1, typeof(System.Boolean));
+					r_RGetComponentInChildren_GT_Boolean.SetBelong(this.instance);
+				}
+				return r_RGetComponentInChildren_GT_Boolean;
+			}
+		}
+
+		/// <summary>
+		/// T GetComponentInChildren[T]()
+		/// </summary>
+		protected RMethod r_RGetComponentInChildren_GT;
+		public virtual RMethod RGetComponentInChildren_GT
+		{
+			get
+			{
+				if(r_RGetComponentInChildren_GT == null)
+				{
+					r_RGetComponentInChildren_GT = new(this, "GetComponentInChildren", 1);
+					r_RGetComponentInChildren_GT.SetBelong(this.instance);
+				}
+				return r_RGetComponentInChildren_GT;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component[] GetComponentsInChildren(System.Type, Boolean)
+		/// </summary>
+		protected RMethod r_RGetComponentsInChildren_Type_Boolean;
+		public virtual RMethod RGetComponentsInChildren_Type_Boolean
+		{
+			get
+			{
+				if(r_RGetComponentsInChildren_Type_Boolean == null)
+				{
+					r_RGetComponentsInChildren_Type_Boolean = new(this, "GetComponentsInChildren", 0, typeof(System.Type), typeof(System.Boolean));
+					r_RGetComponentsInChildren_Type_Boolean.SetBelong(this.instance);
+				}
+				return r_RGetComponentsInChildren_Type_Boolean;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component[] GetComponentsInChildren(System.Type)
+		/// </summary>
+		protected RMethod r_RGetComponentsInChildren_Type;
+		public virtual RMethod RGetComponentsInChildren_Type
+		{
+			get
+			{
+				if(r_RGetComponentsInChildren_Type == null)
+				{
+					r_RGetComponentsInChildren_Type = new(this, "GetComponentsInChildren", 0, typeof(System.Type));
+					r_RGetComponentsInChildren_Type.SetBelong(this.instance);
+				}
+				return r_RGetComponentsInChildren_Type;
+			}
+		}
+
+		/// <summary>
+		/// T[] GetComponentsInChildren[T](Boolean)
+		/// </summary>
+		protected RMethod r_RGetComponentsInChildren_GT_Boolean;
+		public virtual RMethod RGetComponentsInChildren_GT_Boolean
+		{
+			get
+			{
+				if(r_RGetComponentsInChildren_GT_Boolean == null)
+				{
+					r_RGetComponentsInChildren_GT_Boolean = new(this, "GetComponentsInChildren", 1, typeof(System.Boolean));
+					r_RGetComponentsInChildren_GT_Boolean.SetBelong(this.instance);
+				}
+				return r_RGetComponentsInChildren_GT_Boolean;
+			}
+		}
+
+		/// <summary>
+		/// Void GetComponentsInChildren[T](Boolean, System.Collections.Generic.List`1[T])
+		/// </summary>
+		protected RMethod r_RGetComponentsInChildren_GT_Boolean_List_d_T_p_;
+		public virtual RMethod RGetComponentsInChildren_GT_Boolean_List_d_T_p_
+		{
+			get
+			{
+				if(r_RGetComponentsInChildren_GT_Boolean_List_d_T_p_ == null)
+				{
+					r_RGetComponentsInChildren_GT_Boolean_List_d_T_p_ = new(this, "GetComponentsInChildren", 1, typeof(System.Boolean), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_RGetComponentsInChildren_GT_Boolean_List_d_T_p_.SetBelong(this.instance);
+				}
+				return r_RGetComponentsInChildren_GT_Boolean_List_d_T_p_;
+			}
+		}
+
+		/// <summary>
+		/// T[] GetComponentsInChildren[T]()
+		/// </summary>
+		protected RMethod r_RGetComponentsInChildren_GT;
+		public virtual RMethod RGetComponentsInChildren_GT
+		{
+			get
+			{
+				if(r_RGetComponentsInChildren_GT == null)
+				{
+					r_RGetComponentsInChildren_GT = new(this, "GetComponentsInChildren", 1);
+					r_RGetComponentsInChildren_GT.SetBelong(this.instance);
+				}
+				return r_RGetComponentsInChildren_GT;
+			}
+		}
+
+		/// <summary>
+		/// Void GetComponentsInChildren[T](System.Collections.Generic.List`1[T])
+		/// </summary>
+		protected RMethod r_RGetComponentsInChildren_GT_List_d_T_p_;
+		public virtual RMethod RGetComponentsInChildren_GT_List_d_T_p_
+		{
+			get
+			{
+				if(r_RGetComponentsInChildren_GT_List_d_T_p_ == null)
+				{
+					r_RGetComponentsInChildren_GT_List_d_T_p_ = new(this, "GetComponentsInChildren", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_RGetComponentsInChildren_GT_List_d_T_p_.SetBelong(this.instance);
+				}
+				return r_RGetComponentsInChildren_GT_List_d_T_p_;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component GetComponentInParent(System.Type, Boolean)
+		/// </summary>
+		protected RMethod r_RGetComponentInParent_Type_Boolean;
+		public virtual RMethod RGetComponentInParent_Type_Boolean
+		{
+			get
+			{
+				if(r_RGetComponentInParent_Type_Boolean == null)
+				{
+					r_RGetComponentInParent_Type_Boolean = new(this, "GetComponentInParent", 0, typeof(System.Type), typeof(System.Boolean));
+					r_RGetComponentInParent_Type_Boolean.SetBelong(this.instance);
+				}
+				return r_RGetComponentInParent_Type_Boolean;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component GetComponentInParent(System.Type)
+		/// </summary>
+		protected RMethod r_RGetComponentInParent_Type;
+		public virtual RMethod RGetComponentInParent_Type
+		{
+			get
+			{
+				if(r_RGetComponentInParent_Type == null)
+				{
+					r_RGetComponentInParent_Type = new(this, "GetComponentInParent", 0, typeof(System.Type));
+					r_RGetComponentInParent_Type.SetBelong(this.instance);
+				}
+				return r_RGetComponentInParent_Type;
+			}
+		}
+
+		/// <summary>
+		/// T GetComponentInParent[T](Boolean)
+		/// </summary>
+		protected RMethod r_RGetComponentInParent_GT_Boolean;
+		public virtual RMethod RGetComponentInParent_GT_Boolean
+		{
+			get
+			{
+				if(r_RGetComponentInParent_GT_Boolean == null)
+				{
+					r_RGetComponentInParent_GT_Boolean = new(this, "GetComponentInParent", 1, typeof(System.Boolean));
+					r_RGetComponentInParent_GT_Boolean.SetBelong(this.instance);
+				}
+				return r_RGetComponentInParent_GT_Boolean;
+			}
+		}
+
+		/// <summary>
+		/// T GetComponentInParent[T]()
+		/// </summary>
+		protected RMethod r_RGetComponentInParent_GT;
+		public virtual RMethod RGetComponentInParent_GT
+		{
+			get
+			{
+				if(r_RGetComponentInParent_GT == null)
+				{
+					r_RGetComponentInParent_GT = new(this, "GetComponentInParent", 1);
+					r_RGetComponentInParent_GT.SetBelong(this.instance);
+				}
+				return r_RGetComponentInParent_GT;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component[] GetComponentsInParent(System.Type, Boolean)
+		/// </summary>
+		protected RMethod r_RGetComponentsInParent_Type_Boolean;
+		public virtual RMethod RGetComponentsInParent_Type_Boolean
+		{
+			get
+			{
+				if(r_RGetComponentsInParent_Type_Boolean == null)
+				{
+					r_RGetComponentsInParent_Type_Boolean = new(this, "GetComponentsInParent", 0, typeof(System.Type), typeof(System.Boolean));
+					r_RGetComponentsInParent_Type_Boolean.SetBelong(this.instance);
+				}
+				return r_RGetComponentsInParent_Type_Boolean;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component[] GetComponentsInParent(System.Type)
+		/// </summary>
+		protected RMethod r_RGetComponentsInParent_Type;
+		public virtual RMethod RGetComponentsInParent_Type
+		{
+			get
+			{
+				if(r_RGetComponentsInParent_Type == null)
+				{
+					r_RGetComponentsInParent_Type = new(this, "GetComponentsInParent", 0, typeof(System.Type));
+					r_RGetComponentsInParent_Type.SetBelong(this.instance);
+				}
+				return r_RGetComponentsInParent_Type;
+			}
+		}
+
+		/// <summary>
+		/// T[] GetComponentsInParent[T](Boolean)
+		/// </summary>
+		protected RMethod r_RGetComponentsInParent_GT_Boolean;
+		public virtual RMethod RGetComponentsInParent_GT_Boolean
+		{
+			get
+			{
+				if(r_RGetComponentsInParent_GT_Boolean == null)
+				{
+					r_RGetComponentsInParent_GT_Boolean = new(this, "GetComponentsInParent", 1, typeof(System.Boolean));
+					r_RGetComponentsInParent_GT_Boolean.SetBelong(this.instance);
+				}
+				return r_RGetComponentsInParent_GT_Boolean;
+			}
+		}
+
+		/// <summary>
+		/// Void GetComponentsInParent[T](Boolean, System.Collections.Generic.List`1[T])
+		/// </summary>
+		protected RMethod r_RGetComponentsInParent_GT_Boolean_List_d_T_p_;
+		public virtual RMethod RGetComponentsInParent_GT_Boolean_List_d_T_p_
+		{
+			get
+			{
+				if(r_RGetComponentsInParent_GT_Boolean_List_d_T_p_ == null)
+				{
+					r_RGetComponentsInParent_GT_Boolean_List_d_T_p_ = new(this, "GetComponentsInParent", 1, typeof(System.Boolean), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_RGetComponentsInParent_GT_Boolean_List_d_T_p_.SetBelong(this.instance);
+				}
+				return r_RGetComponentsInParent_GT_Boolean_List_d_T_p_;
+			}
+		}
+
+		/// <summary>
+		/// T[] GetComponentsInParent[T]()
+		/// </summary>
+		protected RMethod r_RGetComponentsInParent_GT;
+		public virtual RMethod RGetComponentsInParent_GT
+		{
+			get
+			{
+				if(r_RGetComponentsInParent_GT == null)
+				{
+					r_RGetComponentsInParent_GT = new(this, "GetComponentsInParent", 1);
+					r_RGetComponentsInParent_GT.SetBelong(this.instance);
+				}
+				return r_RGetComponentsInParent_GT;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component[] GetComponents(System.Type)
+		/// </summary>
+		protected RMethod r_RGetComponents_Type;
+		public virtual RMethod RGetComponents_Type
+		{
+			get
+			{
+				if(r_RGetComponents_Type == null)
+				{
+					r_RGetComponents_Type = new(this, "GetComponents", 0, typeof(System.Type));
+					r_RGetComponents_Type.SetBelong(this.instance);
+				}
+				return r_RGetComponents_Type;
+			}
+		}
+
+		/// <summary>
+		/// Void GetComponents(System.Type, System.Collections.Generic.List`1[UnityEngine.Component])
+		/// </summary>
+		protected RMethod r_RGetComponents_Type_List_d_Component_p_;
+		public virtual RMethod RGetComponents_Type_List_d_Component_p_
+		{
+			get
+			{
+				if(r_RGetComponents_Type_List_d_Component_p_ == null)
+				{
+					r_RGetComponents_Type_List_d_Component_p_ = new(this, "GetComponents", 0, typeof(System.Type), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Component)));
+					r_RGetComponents_Type_List_d_Component_p_.SetBelong(this.instance);
+				}
+				return r_RGetComponents_Type_List_d_Component_p_;
+			}
+		}
+
+		/// <summary>
+		/// Void GetComponents[T](System.Collections.Generic.List`1[T])
+		/// </summary>
+		protected RMethod r_RGetComponents_GT_List_d_T_p_;
+		public virtual RMethod RGetComponents_GT_List_d_T_p_
+		{
+			get
+			{
+				if(r_RGetComponents_GT_List_d_T_p_ == null)
+				{
+					r_RGetComponents_GT_List_d_T_p_ = new(this, "GetComponents", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_RGetComponents_GT_List_d_T_p_.SetBelong(this.instance);
+				}
+				return r_RGetComponents_GT_List_d_T_p_;
+			}
+		}
+
+		/// <summary>
+		/// T[] GetComponents[T]()
+		/// </summary>
+		protected RMethod r_RGetComponents_GT;
+		public virtual RMethod RGetComponents_GT
+		{
+			get
+			{
+				if(r_RGetComponents_GT == null)
+				{
+					r_RGetComponents_GT = new(this, "GetComponents", 1);
+					r_RGetComponents_GT.SetBelong(this.instance);
+				}
+				return r_RGetComponents_GT;
+			}
+		}
+
+		/// <summary>
+		/// Boolean CompareTag(System.String)
+		/// </summary>
+		protected RMethod r_RCompareTag_String;
+		public virtual RMethod RCompareTag_String
+		{
+			get
+			{
+				if(r_RCompareTag_String == null)
+				{
+					r_RCompareTag_String = new(this, "CompareTag", 0, typeof(System.String));
+					r_RCompareTag_String.SetBelong(this.instance);
+				}
+				return r_RCompareTag_String;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component GetCoupledComponent()
+		/// </summary>
+		protected RMethod r_RGetCoupledComponent;
+		public virtual RMethod RGetCoupledComponent
+		{
+			get
+			{
+				if(r_RGetCoupledComponent == null)
+				{
+					r_RGetCoupledComponent = new(this, "GetCoupledComponent", 0);
+					r_RGetCoupledComponent.SetBelong(this.instance);
+				}
+				return r_RGetCoupledComponent;
+			}
+		}
+
+		/// <summary>
+		/// Boolean IsCoupledComponent()
+		/// </summary>
+		protected RMethod r_RIsCoupledComponent;
+		public virtual RMethod RIsCoupledComponent
+		{
+			get
+			{
+				if(r_RIsCoupledComponent == null)
+				{
+					r_RIsCoupledComponent = new(this, "IsCoupledComponent", 0);
+					r_RIsCoupledComponent.SetBelong(this.instance);
+				}
+				return r_RIsCoupledComponent;
+			}
+		}
+
+		/// <summary>
+		/// Void SendMessageUpwards(System.String, System.Object, UnityEngine.SendMessageOptions)
+		/// </summary>
+		protected RMethod r_RSendMessageUpwards_String_Object_SendMessageOptions;
+		public virtual RMethod RSendMessageUpwards_String_Object_SendMessageOptions
+		{
+			get
+			{
+				if(r_RSendMessageUpwards_String_Object_SendMessageOptions == null)
+				{
+					r_RSendMessageUpwards_String_Object_SendMessageOptions = new(this, "SendMessageUpwards", 0, typeof(System.String), typeof(System.Object), typeof(UnityEngine.SendMessageOptions));
+					r_RSendMessageUpwards_String_Object_SendMessageOptions.SetBelong(this.instance);
+				}
+				return r_RSendMessageUpwards_String_Object_SendMessageOptions;
+			}
+		}
+
+		/// <summary>
+		/// Void SendMessageUpwards(System.String, System.Object)
+		/// </summary>
+		protected RMethod r_RSendMessageUpwards_String_Object;
+		public virtual RMethod RSendMessageUpwards_String_Object
+		{
+			get
+			{
+				if(r_RSendMessageUpwards_String_Object == null)
+				{
+					r_RSendMessageUpwards_String_Object = new(this, "SendMessageUpwards", 0, typeof(System.String), typeof(System.Object));
+					r_RSendMessageUpwards_String_Object.SetBelong(this.instance);
+				}
+				return r_RSendMessageUpwards_String_Object;
+			}
+		}
+
+		/// <summary>
+		/// Void SendMessageUpwards(System.String)
+		/// </summary>
+		protected RMethod r_RSendMessageUpwards_String;
+		public virtual RMethod RSendMessageUpwards_String
+		{
+			get
+			{
+				if(r_RSendMessageUpwards_String == null)
+				{
+					r_RSendMessageUpwards_String = new(this, "SendMessageUpwards", 0, typeof(System.String));
+					r_RSendMessageUpwards_String.SetBelong(this.instance);
+				}
+				return r_RSendMessageUpwards_String;
+			}
+		}
+
+		/// <summary>
+		/// Void SendMessageUpwards(System.String, UnityEngine.SendMessageOptions)
+		/// </summary>
+		protected RMethod r_RSendMessageUpwards_String_SendMessageOptions;
+		public virtual RMethod RSendMessageUpwards_String_SendMessageOptions
+		{
+			get
+			{
+				if(r_RSendMessageUpwards_String_SendMessageOptions == null)
+				{
+					r_RSendMessageUpwards_String_SendMessageOptions = new(this, "SendMessageUpwards", 0, typeof(System.String), typeof(UnityEngine.SendMessageOptions));
+					r_RSendMessageUpwards_String_SendMessageOptions.SetBelong(this.instance);
+				}
+				return r_RSendMessageUpwards_String_SendMessageOptions;
+			}
+		}
+
+		/// <summary>
+		/// Void SendMessage(System.String, System.Object)
+		/// </summary>
+		protected RMethod r_RSendMessage_String_Object;
+		public virtual RMethod RSendMessage_String_Object
+		{
+			get
+			{
+				if(r_RSendMessage_String_Object == null)
+				{
+					r_RSendMessage_String_Object = new(this, "SendMessage", 0, typeof(System.String), typeof(System.Object));
+					r_RSendMessage_String_Object.SetBelong(this.instance);
+				}
+				return r_RSendMessage_String_Object;
+			}
+		}
+
+		/// <summary>
+		/// Void SendMessage(System.String)
+		/// </summary>
+		protected RMethod r_RSendMessage_String;
+		public virtual RMethod RSendMessage_String
+		{
+			get
+			{
+				if(r_RSendMessage_String == null)
+				{
+					r_RSendMessage_String = new(this, "SendMessage", 0, typeof(System.String));
+					r_RSendMessage_String.SetBelong(this.instance);
+				}
+				return r_RSendMessage_String;
+			}
+		}
+
+		/// <summary>
+		/// Void SendMessage(System.String, System.Object, UnityEngine.SendMessageOptions)
+		/// </summary>
+		protected RMethod r_RSendMessage_String_Object_SendMessageOptions;
+		public virtual RMethod RSendMessage_String_Object_SendMessageOptions
+		{
+			get
+			{
+				if(r_RSendMessage_String_Object_SendMessageOptions == null)
+				{
+					r_RSendMessage_String_Object_SendMessageOptions = new(this, "SendMessage", 0, typeof(System.String), typeof(System.Object), typeof(UnityEngine.SendMessageOptions));
+					r_RSendMessage_String_Object_SendMessageOptions.SetBelong(this.instance);
+				}
+				return r_RSendMessage_String_Object_SendMessageOptions;
+			}
+		}
+
+		/// <summary>
+		/// Void SendMessage(System.String, UnityEngine.SendMessageOptions)
+		/// </summary>
+		protected RMethod r_RSendMessage_String_SendMessageOptions;
+		public virtual RMethod RSendMessage_String_SendMessageOptions
+		{
+			get
+			{
+				if(r_RSendMessage_String_SendMessageOptions == null)
+				{
+					r_RSendMessage_String_SendMessageOptions = new(this, "SendMessage", 0, typeof(System.String), typeof(UnityEngine.SendMessageOptions));
+					r_RSendMessage_String_SendMessageOptions.SetBelong(this.instance);
+				}
+				return r_RSendMessage_String_SendMessageOptions;
+			}
+		}
+
+		/// <summary>
+		/// Void BroadcastMessage(System.String, System.Object, UnityEngine.SendMessageOptions)
+		/// </summary>
+		protected RMethod r_RBroadcastMessage_String_Object_SendMessageOptions;
+		public virtual RMethod RBroadcastMessage_String_Object_SendMessageOptions
+		{
+			get
+			{
+				if(r_RBroadcastMessage_String_Object_SendMessageOptions == null)
+				{
+					r_RBroadcastMessage_String_Object_SendMessageOptions = new(this, "BroadcastMessage", 0, typeof(System.String), typeof(System.Object), typeof(UnityEngine.SendMessageOptions));
+					r_RBroadcastMessage_String_Object_SendMessageOptions.SetBelong(this.instance);
+				}
+				return r_RBroadcastMessage_String_Object_SendMessageOptions;
+			}
+		}
+
+		/// <summary>
+		/// Void BroadcastMessage(System.String, System.Object)
+		/// </summary>
+		protected RMethod r_RBroadcastMessage_String_Object;
+		public virtual RMethod RBroadcastMessage_String_Object
+		{
+			get
+			{
+				if(r_RBroadcastMessage_String_Object == null)
+				{
+					r_RBroadcastMessage_String_Object = new(this, "BroadcastMessage", 0, typeof(System.String), typeof(System.Object));
+					r_RBroadcastMessage_String_Object.SetBelong(this.instance);
+				}
+				return r_RBroadcastMessage_String_Object;
+			}
+		}
+
+		/// <summary>
+		/// Void BroadcastMessage(System.String)
+		/// </summary>
+		protected RMethod r_RBroadcastMessage_String;
+		public virtual RMethod RBroadcastMessage_String
+		{
+			get
+			{
+				if(r_RBroadcastMessage_String == null)
+				{
+					r_RBroadcastMessage_String = new(this, "BroadcastMessage", 0, typeof(System.String));
+					r_RBroadcastMessage_String.SetBelong(this.instance);
+				}
+				return r_RBroadcastMessage_String;
+			}
+		}
+
+		/// <summary>
+		/// Void BroadcastMessage(System.String, UnityEngine.SendMessageOptions)
+		/// </summary>
+		protected RMethod r_RBroadcastMessage_String_SendMessageOptions;
+		public virtual RMethod RBroadcastMessage_String_SendMessageOptions
+		{
+			get
+			{
+				if(r_RBroadcastMessage_String_SendMessageOptions == null)
+				{
+					r_RBroadcastMessage_String_SendMessageOptions = new(this, "BroadcastMessage", 0, typeof(System.String), typeof(UnityEngine.SendMessageOptions));
+					r_RBroadcastMessage_String_SendMessageOptions.SetBelong(this.instance);
+				}
+				return r_RBroadcastMessage_String_SendMessageOptions;
+			}
+		}
+
+		/// <summary>
+		/// Int32 GetInstanceID()
+		/// </summary>
+		protected RMethod r_RGetInstanceID;
+		public virtual RMethod RGetInstanceID
+		{
+			get
+			{
+				if(r_RGetInstanceID == null)
+				{
+					r_RGetInstanceID = new(this, "GetInstanceID", 0);
+					r_RGetInstanceID.SetBelong(this.instance);
+				}
+				return r_RGetInstanceID;
+			}
+		}
+
+		/// <summary>
+		/// Int32 GetHashCode()
+		/// </summary>
+		protected RMethod r_RGetHashCode;
+		public virtual RMethod RGetHashCode
+		{
+			get
+			{
+				if(r_RGetHashCode == null)
+				{
+					r_RGetHashCode = new(this, "GetHashCode", 0);
+					r_RGetHashCode.SetBelong(this.instance);
+				}
+				return r_RGetHashCode;
+			}
+		}
+
+		/// <summary>
+		/// Boolean Equals(System.Object)
+		/// </summary>
+		protected RMethod r_REquals_Object;
+		public virtual RMethod REquals_Object
+		{
+			get
+			{
+				if(r_REquals_Object == null)
+				{
+					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_REquals_Object.SetBelong(this.instance);
+				}
+				return r_REquals_Object;
+			}
+		}
+
+		/// <summary>
+		/// System.String ToString()
+		/// </summary>
+		protected RMethod r_RToString;
+		public virtual RMethod RToString
+		{
+			get
+			{
+				if(r_RToString == null)
+				{
+					r_RToString = new(this, "ToString", 0);
+					r_RToString.SetBelong(this.instance);
+				}
+				return r_RToString;
+			}
+		}
+
+		/// <summary>
+		/// Void Finalize()
+		/// </summary>
+		protected RMethod r_RFinalize;
+		public virtual RMethod RFinalize
+		{
+			get
+			{
+				if(r_RFinalize == null)
+				{
+					r_RFinalize = new(this, "Finalize", 0);
+					r_RFinalize.SetBelong(this.instance);
+				}
+				return r_RFinalize;
+			}
+		}
+
+		/// <summary>
+		/// System.Type GetType()
+		/// </summary>
+		protected RMethod r_RGetType;
+		public virtual RMethod RGetType
+		{
+			get
+			{
+				if(r_RGetType == null)
+				{
+					r_RGetType = new(this, "GetType", 0);
+					r_RGetType.SetBelong(this.instance);
+				}
+				return r_RGetType;
+			}
+		}
+
+		/// <summary>
+		/// System.Object MemberwiseClone()
+		/// </summary>
+		protected RMethod r_RMemberwiseClone;
+		public virtual RMethod RMemberwiseClone
+		{
+			get
+			{
+				if(r_RMemberwiseClone == null)
+				{
+					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_RMemberwiseClone.SetBelong(this.instance);
+				}
+				return r_RMemberwiseClone;
+			}
+		}
+
+
+        public RCombatAreaInfo() : base("CombatAreaInfo")
+        {
+        }
+
+        public RCombatAreaInfo(System.Object instance) : base("CombatAreaInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RCombatAreaInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCombatAreaInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
+        public virtual void Awake()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RAwake.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void Start()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RStart.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual System.String MatrixPathRevert(System.String  @path)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@path};
+            var ___result = RMatrixPathRevert_String.Invoke(___genericsType, ___parameters);
+
+            return (System.String)___result;
+        }
+
+
+        public virtual UnityEngine.Transform GetPosTransform(System.String  @path)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@path};
+            var ___result = RGetPosTransform_String.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Transform)___result;
+        }
+
+
+        public virtual void GetCameraPosInCombatCenter(System.Boolean  @delay)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@delay};
+            var ___result = RGetCameraPosInCombatCenter_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void GetCameraPosInCombatSide(System.Boolean  @delay)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@delay};
+            var ___result = RGetCameraPosInCombatSide_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual UnityEngine.Vector3 GetCenter()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RGetCenter.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Vector3)___result;
+        }
+
+
+        public virtual UnityEngine.Vector3 GetPos(System.Int32  @posx, System.Int32  @posy)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@posx, @posy};
+            var ___result = RGetPos_Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Vector3)___result;
+        }
+
+
+        public virtual UnityEngine.Vector3 GetPosWithOutRevert(System.Int32  @posx, System.Int32  @posy)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@posx, @posy};
+            var ___result = RGetPosWithOutRevert_Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Vector3)___result;
+        }
+
+
+        public virtual UnityEngine.Transform GetPosTransformWithOutRevert(System.String  @path)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@path};
+            var ___result = RGetPosTransformWithOutRevert_String.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Transform)___result;
+        }
+
+
+        public virtual UnityEngine.Quaternion GetRotation(System.Int32  @posx, System.Int32  @posy)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@posx, @posy};
+            var ___result = RGetRotation_Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Quaternion)___result;
+        }
+
+
+        public virtual UnityEngine.Transform GetCombatAreaSideCenter(System.Int32  @posx, System.Int32  @posy)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@posx, @posy};
+            var ___result = RGetCombatAreaSideCenter_Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Transform)___result;
+        }
+
+
+        public virtual UnityEngine.Vector3 GetCombatAreaSideCenterPos(System.Int32  @posx, System.Int32  @posy)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@posx, @posy};
+            var ___result = RGetCombatAreaSideCenterPos_Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Vector3)___result;
+        }
+
+
+        public virtual UnityEngine.Transform GetContCombatAreaSideCenter(System.Int32  @posx, System.Int32  @posy)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@posx, @posy};
+            var ___result = RGetContCombatAreaSideCenter_Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Transform)___result;
+        }
+
+
+        public virtual UnityEngine.Vector3 GetContCombatAreaSideCenterPos(System.Int32  @posx, System.Int32  @posy)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@posx, @posy};
+            var ___result = RGetContCombatAreaSideCenterPos_Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Vector3)___result;
+        }
+
+
+        public virtual void PlaySceneAnimation(System.String  @name)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@name};
+            var ___result = RPlaySceneAnimation_String.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void PlaySceneEffect(System.String  @boneName, UnityEngine.GameObject  @obj)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@boneName, @obj};
+            var ___result = RPlaySceneEffect_String_GameObject.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void PlayeCameraMove(UnityEngine.GameObject  @obj, UnityEngine.Transform  @ctr, System.Int32  @mod)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@obj, @ctr, @mod};
+            var ___result = RPlayeCameraMove_GameObject_Transform_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static UnityEngine.Transform GetChildInDeep(UnityEngine.Transform  @trans, System.String  @name)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@trans, @name};
+            var ___result = RGetChildInDeep_Transform_String.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Transform)___result;
+        }
+
+
+        public virtual void RestPositionOnAnimated(System.Object  @sender, System.EventArgs  @e)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@sender, @e};
+            var ___result = RRestPositionOnAnimated_Object_EventArgs.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void EnterCombat()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = REnterCombat.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void LeaveCombat()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RLeaveCombat.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void InitMatrixEffect()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RInitMatrixEffect.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual System.Collections.IEnumerator InitMatrixEffectDelay(GameDefineType.ID[]  @tmpMatrixEffect)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@tmpMatrixEffect};
+            var ___result = RInitMatrixEffectDelay_IDArray.Invoke(___genericsType, ___parameters);
+
+            return (System.Collections.IEnumerator)___result;
+        }
+
+
+        public virtual void InitRuneWordsEffect(System.Collections.Generic.List<GameDefineType.ID>  @idAttack, System.Int32  @rune, System.Int32  @posX, System.Int32  @posY, System.Int32  @enemyRune)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@idAttack, @rune, @posX, @posY, @enemyRune};
+            var ___result = RInitRuneWordsEffect_List_d_ID_p__Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void DownLoadRuneWordsEffect(System.Collections.Generic.List<GameDefineType.ID>  @idAttack, System.Int32  @rune, System.Boolean  @isEnemy)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@idAttack, @rune, @isEnemy};
+            var ___result = RDownLoadRuneWordsEffect_List_d_ID_p__Int32_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+
+        public virtual void ClearGridObjects()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RClearGridObjects.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void ShowAllGrid()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RShowAllGrid.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetGridColor(System.Int32  @posx, System.Int32  @posy, UnityEngine.Color  @_color)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@posx, @posy, @_color};
+            var ___result = RSetGridColor_Int32_Int32_Color.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void RestSingleton()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RRestSingleton.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual System.Boolean IsInvoking()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RIsInvoking.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual void CancelInvoke()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RCancelInvoke.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void Invoke(System.String  @methodName, System.Single  @time)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@methodName, @time};
+            var ___result = RInvoke_String_Single.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void InvokeRepeating(System.String  @methodName, System.Single  @time, System.Single  @repeatRate)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@methodName, @time, @repeatRate};
+            var ___result = RInvokeRepeating_String_Single_Single.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void CancelInvoke(System.String  @methodName)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@methodName};
+            var ___result = RCancelInvoke_String.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual System.Boolean IsInvoking(System.String  @methodName)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@methodName};
+            var ___result = RIsInvoking_String.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual UnityEngine.Coroutine StartCoroutine(System.String  @methodName)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@methodName};
+            var ___result = RStartCoroutine_String.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Coroutine)___result;
+        }
+
+
+        public virtual UnityEngine.Coroutine StartCoroutine(System.String  @methodName, System.Object  @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@methodName, @value};
+            var ___result = RStartCoroutine_String_Object.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Coroutine)___result;
+        }
+
+
+        public virtual UnityEngine.Coroutine StartCoroutine(System.Collections.IEnumerator  @routine)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@routine};
+            var ___result = RStartCoroutine_IEnumerator.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Coroutine)___result;
+        }
+
+
+        public virtual UnityEngine.Coroutine StartCoroutine_Auto(System.Collections.IEnumerator  @routine)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@routine};
+            var ___result = RStartCoroutine_Auto_IEnumerator.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Coroutine)___result;
+        }
+
+
+        public virtual void StopCoroutine(System.Collections.IEnumerator  @routine)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@routine};
+            var ___result = RStopCoroutine_IEnumerator.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void StopCoroutine(UnityEngine.Coroutine  @routine)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@routine};
+            var ___result = RStopCoroutine_Coroutine.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void StopCoroutine(System.String  @methodName)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@methodName};
+            var ___result = RStopCoroutine_String.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void StopAllCoroutines()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RStopAllCoroutines.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual System.String GetScriptClassName()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RGetScriptClassName.Invoke(___genericsType, ___parameters);
+
+            return (System.String)___result;
+        }
+
+
+        public virtual UnityEngine.Component GetComponent(System.Type  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type};
+            var ___result = RGetComponent_Type.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Component)___result;
+        }
+
+
+        public virtual void GetComponentFastPath(System.Type  @type, System.IntPtr  @oneFurtherThanResultValue)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type, @oneFurtherThanResultValue};
+            var ___result = RGetComponentFastPath_Type_IntPtr.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual T GetComponent<T>()
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{};
+            var ___result = RGetComponent_GT.Invoke(___genericsType, ___parameters);
+
+            return (T)___result;
+        }
+
+
+        public virtual System.Boolean TryGetComponent(System.Type  @type, out UnityEngine.Component  @component)
+        {
+			component = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type, @component};
+            var ___result = RTryGetComponent_Type_Out_Component.Invoke(___genericsType, ___parameters);
+			component = (UnityEngine.Component)___parameters[1];
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Boolean TryGetComponent<T>(out T  @component)
+        {
+			component = default;
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@component};
+            var ___result = RTryGetComponent_GT_Out_T.Invoke(___genericsType, ___parameters);
+			component = (T)___parameters[0];
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual UnityEngine.Component GetComponent(System.String  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type};
+            var ___result = RGetComponent_String.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Component)___result;
+        }
+
+
+        public virtual UnityEngine.Component GetComponentInChildren(System.Type  @t, System.Boolean  @includeInactive)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@t, @includeInactive};
+            var ___result = RGetComponentInChildren_Type_Boolean.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Component)___result;
+        }
+
+
+        public virtual UnityEngine.Component GetComponentInChildren(System.Type  @t)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@t};
+            var ___result = RGetComponentInChildren_Type.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Component)___result;
+        }
+
+
+        public virtual T GetComponentInChildren<T>(System.Boolean  @includeInactive)
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@includeInactive};
+            var ___result = RGetComponentInChildren_GT_Boolean.Invoke(___genericsType, ___parameters);
+
+            return (T)___result;
+        }
+
+
+        public virtual T GetComponentInChildren<T>()
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{};
+            var ___result = RGetComponentInChildren_GT.Invoke(___genericsType, ___parameters);
+
+            return (T)___result;
+        }
+
+
+        public virtual UnityEngine.Component[] GetComponentsInChildren(System.Type  @t, System.Boolean  @includeInactive)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@t, @includeInactive};
+            var ___result = RGetComponentsInChildren_Type_Boolean.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Component[])___result;
+        }
+
+
+        public virtual UnityEngine.Component[] GetComponentsInChildren(System.Type  @t)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@t};
+            var ___result = RGetComponentsInChildren_Type.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Component[])___result;
+        }
+
+
+        public virtual T[] GetComponentsInChildren<T>(System.Boolean  @includeInactive)
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@includeInactive};
+            var ___result = RGetComponentsInChildren_GT_Boolean.Invoke(___genericsType, ___parameters);
+
+            return (T[])___result;
+        }
+
+
+        public virtual void GetComponentsInChildren<T>(System.Boolean  @includeInactive, System.Collections.Generic.List<T>  @result)
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@includeInactive, @result};
+            var ___result = RGetComponentsInChildren_GT_Boolean_List_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual T[] GetComponentsInChildren<T>()
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{};
+            var ___result = RGetComponentsInChildren_GT.Invoke(___genericsType, ___parameters);
+
+            return (T[])___result;
+        }
+
+
+        public virtual void GetComponentsInChildren<T>(System.Collections.Generic.List<T>  @results)
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@results};
+            var ___result = RGetComponentsInChildren_GT_List_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual UnityEngine.Component GetComponentInParent(System.Type  @t, System.Boolean  @includeInactive)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@t, @includeInactive};
+            var ___result = RGetComponentInParent_Type_Boolean.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Component)___result;
+        }
+
+
+        public virtual UnityEngine.Component GetComponentInParent(System.Type  @t)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@t};
+            var ___result = RGetComponentInParent_Type.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Component)___result;
+        }
+
+
+        public virtual T GetComponentInParent<T>(System.Boolean  @includeInactive)
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@includeInactive};
+            var ___result = RGetComponentInParent_GT_Boolean.Invoke(___genericsType, ___parameters);
+
+            return (T)___result;
+        }
+
+
+        public virtual T GetComponentInParent<T>()
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{};
+            var ___result = RGetComponentInParent_GT.Invoke(___genericsType, ___parameters);
+
+            return (T)___result;
+        }
+
+
+        public virtual UnityEngine.Component[] GetComponentsInParent(System.Type  @t, System.Boolean  @includeInactive)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@t, @includeInactive};
+            var ___result = RGetComponentsInParent_Type_Boolean.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Component[])___result;
+        }
+
+
+        public virtual UnityEngine.Component[] GetComponentsInParent(System.Type  @t)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@t};
+            var ___result = RGetComponentsInParent_Type.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Component[])___result;
+        }
+
+
+        public virtual T[] GetComponentsInParent<T>(System.Boolean  @includeInactive)
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@includeInactive};
+            var ___result = RGetComponentsInParent_GT_Boolean.Invoke(___genericsType, ___parameters);
+
+            return (T[])___result;
+        }
+
+
+        public virtual void GetComponentsInParent<T>(System.Boolean  @includeInactive, System.Collections.Generic.List<T>  @results)
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@includeInactive, @results};
+            var ___result = RGetComponentsInParent_GT_Boolean_List_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual T[] GetComponentsInParent<T>()
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{};
+            var ___result = RGetComponentsInParent_GT.Invoke(___genericsType, ___parameters);
+
+            return (T[])___result;
+        }
+
+
+        public virtual UnityEngine.Component[] GetComponents(System.Type  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type};
+            var ___result = RGetComponents_Type.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Component[])___result;
+        }
+
+
+        public virtual void GetComponents(System.Type  @type, System.Collections.Generic.List<UnityEngine.Component>  @results)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type, @results};
+            var ___result = RGetComponents_Type_List_d_Component_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void GetComponents<T>(System.Collections.Generic.List<T>  @results)
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@results};
+            var ___result = RGetComponents_GT_List_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual T[] GetComponents<T>()
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{};
+            var ___result = RGetComponents_GT.Invoke(___genericsType, ___parameters);
+
+            return (T[])___result;
+        }
+
+
+        public virtual System.Boolean CompareTag(System.String  @tag)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@tag};
+            var ___result = RCompareTag_String.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual UnityEngine.Component GetCoupledComponent()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RGetCoupledComponent.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Component)___result;
+        }
+
+
+        public virtual System.Boolean IsCoupledComponent()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RIsCoupledComponent.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual void SendMessageUpwards(System.String  @methodName, System.Object  @value, UnityEngine.SendMessageOptions  @options)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@methodName, @value, @options};
+            var ___result = RSendMessageUpwards_String_Object_SendMessageOptions.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SendMessageUpwards(System.String  @methodName, System.Object  @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@methodName, @value};
+            var ___result = RSendMessageUpwards_String_Object.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SendMessageUpwards(System.String  @methodName)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@methodName};
+            var ___result = RSendMessageUpwards_String.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SendMessageUpwards(System.String  @methodName, UnityEngine.SendMessageOptions  @options)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@methodName, @options};
+            var ___result = RSendMessageUpwards_String_SendMessageOptions.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SendMessage(System.String  @methodName, System.Object  @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@methodName, @value};
+            var ___result = RSendMessage_String_Object.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SendMessage(System.String  @methodName)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@methodName};
+            var ___result = RSendMessage_String.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SendMessage(System.String  @methodName, System.Object  @value, UnityEngine.SendMessageOptions  @options)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@methodName, @value, @options};
+            var ___result = RSendMessage_String_Object_SendMessageOptions.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SendMessage(System.String  @methodName, UnityEngine.SendMessageOptions  @options)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@methodName, @options};
+            var ___result = RSendMessage_String_SendMessageOptions.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void BroadcastMessage(System.String  @methodName, System.Object  @parameter, UnityEngine.SendMessageOptions  @options)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@methodName, @parameter, @options};
+            var ___result = RBroadcastMessage_String_Object_SendMessageOptions.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void BroadcastMessage(System.String  @methodName, System.Object  @parameter)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@methodName, @parameter};
+            var ___result = RBroadcastMessage_String_Object.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void BroadcastMessage(System.String  @methodName)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@methodName};
+            var ___result = RBroadcastMessage_String.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void BroadcastMessage(System.String  @methodName, UnityEngine.SendMessageOptions  @options)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@methodName, @options};
+            var ___result = RBroadcastMessage_String_SendMessageOptions.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual System.Int32 GetInstanceID()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RGetInstanceID.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
+
+        public virtual System.Int32 GetHashCode()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
+
+        public virtual System.Boolean Equals(System.Object  @other)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@other};
+            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.String ToString()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RToString.Invoke(___genericsType, ___parameters);
+
+            return (System.String)___result;
+        }
+
+
+        public virtual void Finalize()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual System.Type GetType()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+
+            return (System.Type)___result;
+        }
+
+
+        public virtual System.Object MemberwiseClone()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
+
+
+    }
+}

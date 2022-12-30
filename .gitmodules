@@ -1,3 +1,6 @@
 ﻿[submodule "Document/PAL3CPKUnpack"]
 	path = Document/PAL3CPKUnpack
 	url = https://github.com/xurubin/PAL3CPKUnpack.git
+[submodule "Assets/CsReflectionFramework"]
+	path = Assets/CsReflectionFramework
+	url = https://github.com/Zhunity/CsReflectionFramework.git
