@@ -12,7 +12,7 @@ public class NewPalOlReflection
 	[MenuItem("SugarMonth/新仙剑/反射新仙剑代码")]
 	static void RefelectionDll()
 	{
-		var bytes = File.ReadAllBytes("Assets/Script/NewPal/Assembly-CSharp-firstpass.bytes");
+		var bytes = File.ReadAllBytes("Assets/NewPalOl/Assembly-CSharp-firstpass.dll");
 		Debug.Log(bytes.Length);
 		var assembly = Assembly.Load(bytes);
 		var types = assembly.GetTypes();
@@ -30,7 +30,7 @@ public class NewPalOlReflection
 		//string jsonFile = UnityCSReflectionPath + "FrameWork/Generate/Config/Replace.txt";
 		//LegalNameConfig.LoadReplace(jsonFile);
 		//Debug.Log(t.ToDeclareName() + "  " + t.ToClassName());
-		GenerateInput.UnityCSReflectionPath = $"{Application.dataPath}/Script/NewPal/";
+		GenerateInput.UnityCSReflectionPath = $"Assets/NewPalOl/";
 		GenerateInput.Generate(types);
 	}
 }
