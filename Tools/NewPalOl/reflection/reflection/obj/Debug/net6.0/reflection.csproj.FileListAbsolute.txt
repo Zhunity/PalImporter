@@ -1,0 +1,17 @@
+D:\Project\PalImporter\Tools\NewPalOl\reflection\reflection\bin\Debug\net6.0\reflection.exe
+D:\Project\PalImporter\Tools\NewPalOl\reflection\reflection\bin\Debug\net6.0\reflection.deps.json
+D:\Project\PalImporter\Tools\NewPalOl\reflection\reflection\bin\Debug\net6.0\reflection.runtimeconfig.json
+D:\Project\PalImporter\Tools\NewPalOl\reflection\reflection\bin\Debug\net6.0\reflection.dll
+D:\Project\PalImporter\Tools\NewPalOl\reflection\reflection\bin\Debug\net6.0\reflection.pdb
+D:\Project\PalImporter\Tools\NewPalOl\reflection\reflection\obj\Debug\net6.0\reflection.csproj.AssemblyReference.cache
+D:\Project\PalImporter\Tools\NewPalOl\reflection\reflection\obj\Debug\net6.0\reflection.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\PalImporter\Tools\NewPalOl\reflection\reflection\obj\Debug\net6.0\reflection.AssemblyInfoInputs.cache
+D:\Project\PalImporter\Tools\NewPalOl\reflection\reflection\obj\Debug\net6.0\reflection.AssemblyInfo.cs
+D:\Project\PalImporter\Tools\NewPalOl\reflection\reflection\obj\Debug\net6.0\reflection.csproj.CoreCompileInputs.cache
+D:\Project\PalImporter\Tools\NewPalOl\reflection\reflection\obj\Debug\net6.0\reflection.dll
+D:\Project\PalImporter\Tools\NewPalOl\reflection\reflection\obj\Debug\net6.0\refint\reflection.dll
+D:\Project\PalImporter\Tools\NewPalOl\reflection\reflection\obj\Debug\net6.0\reflection.pdb
+D:\Project\PalImporter\Tools\NewPalOl\reflection\reflection\obj\Debug\net6.0\reflection.genruntimeconfig.cache
+D:\Project\PalImporter\Tools\NewPalOl\reflection\reflection\obj\Debug\net6.0\ref\reflection.dll
+D:\Project\PalImporter\Tools\NewPalOl\reflection\reflection\bin\Debug\net6.0\Assembly-CSharp-firstpass.dll
+D:\Project\PalImporter\Tools\NewPalOl\reflection\reflection\obj\Debug\net6.0\reflection.csproj.CopyComplete

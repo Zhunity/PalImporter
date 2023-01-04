@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assembly-CSharp-firstpass.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ApplicationDefinition Include="Assembly-CSharp-firstpass.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
